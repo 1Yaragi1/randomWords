@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background: url('../img/job5452-w3it-65.jpg') ;
+    background-size: cover;
+}
+
+@media(max-width: 400px){
+    .wrapper{
+        display: block;
+    }
+    
+    .wrapper_title{
+        text-align: center;
+        margin: 60px 0 0 0;
+        font-size: 22px;
+    }
+
+    h1{
+        margin: 0px 0 150px 0;
+        color: #c72a2a;
+    }
+
+    h2{
+        margin: 0px 0 120px 0;
+        color: #d97025;
+        font-size: 35px;
+    }
+    
+    .wrapper_nav{
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #btn{
+        background-color: #c72a2a;
+        color: #fff;
+        border: none;
+        font-size: 25px;
+        padding: 10px 30px;
+        border-radius: 10px;
+        margin: 0 0 50px 0;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #btn:active{
+        background-color: rgba(199, 42, 42, 0.7);
+    }
+    
+    #enter{
+        width: 70%;
+        padding: 10px 15px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+}
